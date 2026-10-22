@@ -36,40 +36,40 @@ export const GALLERY_INTERACTION_AUDIO_SETTINGS = {
 // Define the unique projects and their textures
 const FALLBACK_PROJECTS = [
     {
-        id: 'monetune',
-        title: 'MONETUNE',
+        id: 'gsoc-nlp',
+        title: 'GSOC NLP PIPELINE',
         front: '/textures/gallery/monetuneprzod.webp',
         painted: '/textures/gallery/monetuneprzod_painted.webp',
-        url: 'https://monetune.pl',
-        description: 'MoneTune is a step-by-step blueprint that teaches beginners how to generate passive income using AI-created music. Without any musical skills, you will learn how to easily produce professional tracks, publish them on platforms like Spotify, and monetize your digital assets.',
-        techStack: ['/textures/gallery/wordpresslogo.webp', '/textures/gallery/elementorlogo.webp', '/textures/gallery/phplogo.webp', '/textures/gallery/csslogo.webp']
+        url: 'https://github.com/Nikk6174',
+        description: 'Built a document AI pipeline to extract and correct text from unstructured, scanned 17th-century Spanish manuscripts using TrOCR and Gemini 2.5 Flash. Engineered a 3-stage correction architecture reducing CER from 12.43% to 6.75%, surpassing the <10% project target.',
+        techStack: ['/textures/gallery/jslogo.webp', '/textures/gallery/htmllogo.webp', '/textures/gallery/csslogo.webp', '/textures/gallery/reactlogo.webp']
     },
     {
-        id: 'timber',
-        title: 'TIMBERKITTY',
+        id: 'amazon-ml',
+        title: 'AMAZON ML',
         front: '/textures/gallery/timberkittyprzod.webp',
         painted: '/textures/gallery/timberkittyprzod_painted.webp',
-        url: 'https://timberkitty.netlify.app',
-        description: 'TimberKitty is an addictive, free-to-play browser arcade game built in pure JavaScript. Players control a lumberjack cat to chop wood, save birds, complete daily missions, and compete on global leaderboards.',
-        techStack: ['/textures/gallery/jslogo.webp', '/textures/gallery/htmllogo.webp', '/textures/gallery/csslogo.webp', '/textures/gallery/firebaselogo.webp']
+        url: 'https://github.com/Nikk6174',
+        description: 'Built a multimodal price prediction pipeline using catalog text and images, ranking in the top 2% nationwide. Ensemble architecture combining LightGBM, XGBoost, and CatBoost with 768-dim DeBERTa text embeddings and 2,048-dim ResNet-50 image embeddings.',
+        techStack: ['/textures/gallery/jslogo.webp', '/textures/gallery/csslogo.webp', '/textures/gallery/htmllogo.webp', '/textures/gallery/reactlogo.webp']
     },
     {
-        id: 'young',
-        title: 'YOUNG MULTI',
+        id: 'converso',
+        title: 'CONVERSO',
         front: '/textures/gallery/youngmultiprzod.webp',
         painted: '/textures/gallery/youngmultiprzod_painted.webp',
-        url: 'https://young-multi-strona.netlify.app',
-        description: 'A sleek, modern concept website dedicated to the Polish rapper and creator Young Multi. It serves as a promotional landing page designed to highlight his personal brand, music, and online presence.',
+        url: 'https://github.com/Nikk6174',
+        description: 'Built Converso, a voice-driven AI learning SaaS where users hold real-time spoken conversations with a customizable AI companion. Multi-service architecture connecting VAPI AI, Supabase PostgreSQL, and Clerk for OAuth — orchestrated through Next.js 14 App Router.',
         techStack: ['/textures/gallery/reactlogo.webp', '/textures/gallery/tailwindlogo.webp', '/textures/gallery/htmllogo.webp', '/textures/gallery/netlifylogo.webp']
     },
     {
-        id: 'bio',
-        title: 'BIO',
+        id: 'accenture-review',
+        title: 'CODE REVIEW AI',
         front: '/textures/gallery/bioprzod.webp',
         painted: '/textures/gallery/bioprzod_painted.webp',
-        url: 'https://tomkingbio.netlify.app',
-        description: 'A fast, modern personal bio page serving as a central hub for my digital footprint. It showcases my latest coding projects, web development services, YouTube videos, and recommended music artists.',
-        techStack: ['/textures/gallery/htmllogo.webp', '/textures/gallery/csslogo.webp', '/textures/gallery/jslogo.webp', '/textures/gallery/netlifylogo.webp']
+        url: 'https://github.com/Nikk6174',
+        description: 'Automated code review system built at Accenture (client: Intuit) that scans submitted code files to detect security vulnerabilities, performance bottlenecks, and style flaws. Uses Redis/BullMQ queue infrastructure and OpenAI API with structured output for validated review comments.',
+        techStack: ['/textures/gallery/jslogo.webp', '/textures/gallery/csslogo.webp', '/textures/gallery/htmllogo.webp', '/textures/gallery/netlifylogo.webp']
     },
 ];
 

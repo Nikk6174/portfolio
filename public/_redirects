@@ -7,3 +7,4 @@
 /start/ /start/index.html  200
 
 # Pozostałe ścieżki (/gallery, /about itd.) obsługuje automatyczny fallback SPA Cloudflare Pages.
+/*      /index.html        200

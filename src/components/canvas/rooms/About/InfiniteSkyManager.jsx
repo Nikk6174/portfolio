@@ -352,7 +352,7 @@ const IntroMilestone = ({ z, scrollProgressRef }) => {
                 anchorY="middle"
                 font="/fonts/RubikScribble-Regular.ttf"
             >
-                TOMASZ SZMAJDA
+                NIKHIL SINGH PARASHAR
             </Text>
 
             {/* Subtitle - Brand (spreads right) */}
@@ -365,7 +365,7 @@ const IntroMilestone = ({ z, scrollProgressRef }) => {
                 anchorY="middle"
                 font="/fonts/CabinSketch-Regular.ttf"
             >
-                (ITOM)
+                (NIKK)
             </Text>
 
             {/* Avatar on cloud - floating + spreads up-left */}
@@ -390,7 +390,7 @@ const IntroMilestone = ({ z, scrollProgressRef }) => {
                 font="/fonts/CabinSketch-Regular.ttf"
                 fontStyle="italic"
             >
-                "Crafting digital experiences
+                "Building scalable systems
             </Text>
 
             {/* Motto - Line 2 (spreads left) */}
@@ -404,7 +404,7 @@ const IntroMilestone = ({ z, scrollProgressRef }) => {
                 font="/fonts/CabinSketch-Regular.ttf"
                 fontStyle="italic"
             >
-                that push creative boundaries"
+                that bridge code and intelligence"
             </Text>
         </group>
     );
@@ -417,12 +417,12 @@ const AWARDS_DATA = {
     featured: {
         id: 'award-featured',
         layout: 'certificate_grid',
-        title: 'Featured Projects Collection',
+        title: 'Competition Achievements',
         items: [
-            { label: 'Featured - Awwwards', date: 'May 2025', image: '/textures/about/FEATURED.webp', url: 'https://awwwards.com' },
-            { label: 'Featured - CSS Design Awards', date: 'June 2025', image: '/textures/about/FEATURED.webp', url: 'https://cssdesignawards.com' },
-            { label: 'Featured - The FWA', date: 'July 2025', image: '/textures/about/FEATURED.webp', url: 'https://thefwa.com' },
-            { label: 'Featured - Behance', date: 'August 2025', image: '/textures/about/FEATURED.webp', url: 'https://behance.net' },
+            { label: 'Flipkart Grid 8.0 - Semi Finals', date: '2026', image: '/textures/about/FEATURED.webp', url: 'https://www.linkedin.com/in/nikhil-singh-parashar/' },
+            { label: 'Meta PyTorch Hackathon - Finalist', date: '2026', image: '/textures/about/FEATURED.webp', url: 'https://www.linkedin.com/in/nikhil-singh-parashar/' },
+            { label: 'Amazon ML Challenge - AIR 1894', date: '2025', image: '/textures/about/FEATURED.webp', url: 'https://www.linkedin.com/in/nikhil-singh-parashar/' },
+            { label: 'Leetcode - 250+ Problems Solved', date: '2025', image: '/textures/about/FEATURED.webp', url: 'https://www.linkedin.com/in/nikhil-singh-parashar/' },
         ],
         platformConfig: {
             label: 'HONOR',
@@ -433,12 +433,12 @@ const AWARDS_DATA = {
     sotd: {
         id: 'award-sotd',
         layout: 'certificate_grid',
-        title: 'Site of the Day Awards',
+        title: 'Hackathon & Competition Awards',
         items: [
-            { label: 'SOTD - GSAP', date: 'February 13, 2026', image: '/textures/about/SOTDAYYOUNGMULTIGSAP.webp', url: 'https://www.linkedin.com/posts/greensock_site-of-the-day-young-multi-this-immersive-activity-7427567524940017664-zU2n?utm_source=share&utm_medium=member_desktop&rcm=ACoAAE3TV6UBqXoaJXUN5-1s3ij6SQJwTRAcbCM' },
-            { label: 'SOTD - CSS Winner', date: 'January 24, 2026', image: '/textures/about/SOTDAYYOUNGMULTICSSWINNER.webp', url: 'https://www.csswinner.com/details/young-multi-official-experience/19045' },
-            { label: 'SOTD - Orpetron', date: 'January 29, 2026', image: '/textures/about/SOTDAYYOUNGMULTIORPETRON.webp', url: 'https://orpetron.com/sites/young-multi/' },
-            { label: 'SOTD - Design Nominess', date: 'February 17, 2026', image: '/textures/about/SOTDAYYOUNGMULTIDESIGNNOMINESS.webp', url: 'https://www.designnominees.com/sites/young-multi' }
+            { label: 'Flipkart Grid 8.0 Semi-Finals', date: '2026', image: '/textures/about/SOTDAYYOUNGMULTIGSAP.webp', url: 'https://www.linkedin.com/in/nikhil-singh-parashar/' },
+            { label: 'Meta PyTorch OpenEnv Hackathon', date: '2026', image: '/textures/about/SOTDAYYOUNGMULTICSSWINNER.webp', url: 'https://www.linkedin.com/in/nikhil-singh-parashar/' },
+            { label: 'Amazon ML Challenge Top 2%', date: 'October 2025', image: '/textures/about/SOTDAYYOUNGMULTIORPETRON.webp', url: 'https://www.linkedin.com/in/nikhil-singh-parashar/' },
+            { label: 'GSOC NLP Pipeline Contributor', date: 'March 2026', image: '/textures/about/SOTDAYYOUNGMULTIDESIGNNOMINESS.webp', url: 'https://github.com/Nikk6174' }
         ],
         platformConfig: {
             label: 'AWARD',
@@ -449,10 +449,10 @@ const AWARDS_DATA = {
     sotm: {
         id: 'award-sotm',
         layout: 'certificate_grid',
-        title: 'Site of the Month Awards',
+        title: 'Academic Achievements',
         items: [],
         platformConfig: {
-            label: 'AWARD',
+            label: 'ACADEMIC',
             color: '#1a1a1a',
             icon: '📅'
         }
@@ -460,7 +460,7 @@ const AWARDS_DATA = {
     other: {
         id: 'award-other',
         layout: 'certificate_grid',
-        title: 'Other Awards',
+        title: 'Other Achievements',
         items: [],
         platformConfig: {
             label: 'PRESTIGE',
