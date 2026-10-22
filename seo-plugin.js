@@ -41,21 +41,16 @@ function buildJsonLd(globalInfo, projects, studio, awards, faqList) {
     // --- 1. Person: Central node of the Knowledge Graph ---
     const person = {
         '@type': 'Person',
-        '@id': 'https://itomdev.com/#person',
-        name: 'Tomasz Szmajda',
-        alternateName: ['ITom', 'ITom Dev', 'Tomasz ITom Szmajda'],
-        url: 'https://itomdev.com',
-        jobTitle: 'Creative Frontend Developer',
-        description: globalInfo?.aboutMe || 'Creative developer specializing in 3D web experiences.',
-        knowsAbout: ['React', 'Three.js', 'JavaScript', 'TypeScript', 'GSAP', 'Next.js', 'WebGL', '3D Graphics', 'Web Development'],
+        name: 'Nikhil Singh Parashar',
+        alternateName: ['Nikk', 'Nikk6174'],
+        url: 'https://github.com/Nikk6174',
+        jobTitle: 'Full-Stack Developer & AI/ML Engineer',
+        description: globalInfo?.aboutMe || 'Full-stack developer specializing in React, Next.js, Python, and Machine Learning.',
+        knowsAbout: ['React', 'Next.js', 'Python', 'Three.js', 'Machine Learning', 'NLP', 'JavaScript', 'TypeScript', 'Web Development'],
         sameAs: [
-            globalInfo?.linkedinUrl,
-            globalInfo?.githubUrl,
-            globalInfo?.instagramUrl,
-            globalInfo?.xUrl,
-            globalInfo?.tiktokUrl,
-            globalInfo?.youtubeUrl
-        ].filter(Boolean)
+            'https://github.com/Nikk6174',
+            'https://linkedin.com'
+        ]
     };
     graph.push(person);
 
@@ -351,10 +346,10 @@ export function generateSeoHtml() {
                     sanityClient.fetch(`*[_type == "faq"]`)
                 ]);
 
-                // Fallback values if globalInfo is not yet created in Sanity
-                const siteTitle = globalInfo?.siteTitle || 'ITom - Creative Developer';
-                const siteDescription = globalInfo?.siteDescription || 'Interactive 3D portfolio of a creative web developer.';
-                const aboutMe = globalInfo?.aboutMe || 'I am a creative developer specializing in 3D web experiences.';
+                // Fallback values for Nikhil's portfolio
+                const siteTitle = 'Nikhil Singh Parashar | Creative 3D Portfolio';
+                const siteDescription = 'Interactive 3D developer portfolio by Nikhil Singh Parashar. Explore full-stack projects, ML/NLP pipelines & React web applications in a hand-drawn gallery.';
+                const aboutMe = 'Nikhil Singh Parashar is a full-stack developer and AI/ML engineer from National Institute of Technology Silchar.';
 
                 // Cache llms.txt content for later bundle emission
                 cachedLlmsContent = buildLlmsTxt(globalInfo, projects, studio, awards, faqList);
